@@ -21,15 +21,15 @@ class Student {
 
   addCourse (extraCourse) {
     this.courses.push(extraCourse);
-    // console.log(this.courses)
+    //console.log(this.courses)
   }
 }
 
-const g = new Student('enyata', 43, 56, ['js', 'py', 'rs', 'go']);
+const newStudent = new Student('enyata', 43, 56, ['js', 'py', 'rs', 'go']);
 
-console.log(g.studentName());
-console.log(g.studentAge());
-g.increaseAge();
-g.increaseAge();
-g.addCourse('.ts');
-g.addCourse('.dart');
+console.log(newStudent.studentName());
+console.log(newStudent.studentAge());
+newStudent.increaseAge();
+newStudent.increaseAge();
+newStudent.addCourse('.ts');
+newStudent.addCourse('.dart');
